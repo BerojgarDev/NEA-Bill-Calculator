@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="#" id="form" novalidate>
+
+        <!-- Previous Reading -->
+        <div>
+            <label for="previous-reading">Previous Reading</label>
+            <input type="number" name="previous-reading" id="previous-reading" required min="0" step="any">
+        </div>
+
+        <!-- Present Reading -->
+        <div>
+            <label for="current-units">Present Reading</label>
+            <input type="number" name="current-units" id="current-units" required min="0" step="any">
+        </div>
+
+        <!-- User Category -->
+        <div>
+            <label for="user-category">
+                User Category
+                <span class="required-indicator" aria-hidden="true">*</span>
+            </label>
+            <select name="user-category" id="user-category" required aria-describedby="user-category-hint">
+                <option value="" disabled selected>Select category</option>
+                <option id="domestic" value="domestic">Domestic/Household</option>
+                <option id="commercial" value="commercial">Commercial/Industrial</option>
+            </select>
+            <span id="user-category-hint" class="visually-hidden">
+                Required. Choose whether this is for domestic/household or commercial/industrial use.
+            </span>
+
+            <div id="user-category-error" class="error-message" hidden>
+                Please select a User Category
+            </div>
+        </div>
+
+        <!-- Ampere Rating -->
+        <fieldset>
+            <legend>
+                Ampere Rating
+                <span class="required-indicator" aria-hidden="true">*</span>
+            </legend>
+
+            <div>
+                <input type="radio" name="ampere-rating" id="ampere-5" value="5" required>
+                <label for="ampere-5">5 Ampere</label>
+            </div>
+
+            <div>
+                <input type="radio" name="ampere-rating" id="ampere-15" value="15">
+                <label for="ampere-15">15 Ampere</label>
+            </div>
+
+            <div>
+                <input type="radio" name="ampere-rating" id="ampere-30" value="30">
+                <label for="ampere-30">30 Ampere</label>
+            </div>
+
+            <div>
+                <input type="radio" name="ampere-rating" id="ampere-60" value="60">
+                <label for="ampere-60">60 Ampere</label>
+            </div>
+        </fieldset>
+
+        <button type="submit" id="calculate">Calculate</button>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
