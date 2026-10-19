@@ -12,6 +12,15 @@ The **NEA Bill Calculator** helps domestic consumers in Nepal calculate their ex
 
 ---
 
+## ⚡ Features
+
+- **Automatic Unit Calculation:** Enter previous and current meter readings to automatically calculate total units consumed.
+- **Slab-Based Tariff Breakdown:** Accurately applies NEA's tiered rates for domestic consumption.
+- **Service & Minimum Charge:** Includes the fixed monthly service charge.
+- **Responsive UI:** Clean, simple, and fully responsive across mobile and desktop devices.
+
+---
+
 ## 🧮 Calculation Logic & Tariff System
 
 The **NEA Bill Calculator** implements the official Nepal Electricity Authority (Nepal Tariffs) domestic calculation rules, slab breakdowns, service charges, and VAT criteria.
@@ -63,12 +72,8 @@ $$\text{Total Amount} + \text{VAT Amount} = 1145 + 41 = \mathbf{Rs. 1,186}$$
 
 ---
 
-## ⚡ Features
-
-- **Automatic Unit Calculation:** Enter previous and current meter readings to automatically calculate total units consumed.
-- **Slab-Based Tariff Breakdown:** Accurately applies NEA's tiered rates for domestic consumption.
-- **Service & Minimum Charge:** Includes the fixed monthly service charge.
-- **Responsive UI:** Clean, simple, and fully responsive across mobile and desktop devices.
+You can view the pdf that I made this so I hope you can understand the logic better here:
+[Download/View Official Electricity Rate List (PDF)](./Electricity%20Rate%20List.pdf)
 
 ---
 
