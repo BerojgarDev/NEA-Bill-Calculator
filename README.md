@@ -1,55 +1,37 @@
 # NEA Bill Calculator 🇳🇵
 
-> A web-based utility tool designed to calculate electricity consumption bills according to the official Nepal Electricity Authority (NEA) tariff slabs and rules.
+> A fast and simple web app to calculate domestic electricity bills based on the official Nepal Electricity Authority (NEA) slab rates.
 
-![Project Banner / Screenshot](link-to-screenshot-if-you-have-one)
-
----
-
-## Table of Contents
-- [About the Project](#about-the-project)
-- [How NEA Billing Works (Features)](#how-nea-billing-works-features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+🔗 **Live Demo:** [https://berojgardev.github.io/NEA-Bill-Calculator/](https://berojgardev.github.io/NEA-Bill-Calculator/)
 
 ---
 
-## About the Project
+## 🌟 Overview
 
-Calculating electricity bills manually using slab rates can be tedious. The **NEA Bill Calculator** automates this process. It takes your previous and current meter readings (or total units consumed), factors in the consumer type, service charges, and applies the official NEA tariff rules to compute the exact total amount due, including rebates or late fees where applicable.
-
----
-
-## How NEA Billing Works (Features)
-
-- **Slab-Based Calculation:** Automatically breaks down consumed units across NEA's consumption tiers (e.g., 0-20 units, 21-50 units, etc.).
-- **Service Charge & Minimum Fee:** Accounts for the fixed minimum service charge based on the sanctioned load / meter type.
-- **Rebate & Fine Management:** Calculates early-payment discounts or late-payment surcharges based on NEA's payment timeline rules.
-- **Clean & Responsive UI:** Built for both desktop and mobile screens for quick calculations on the go.
+The **NEA Bill Calculator** helps domestic consumers in Nepal calculate their exact monthly electricity bill. Instead of manually calculating tariff slabs and minimum charges, users can simply enter their meter readings or total units to get a complete breakdown instantly.
 
 ---
 
-## Tech Stack
+## ⚡ Features
 
-- **Markup & Styling:** HTML5, CSS3 / Tailwind CSS (Update based on what you used)
-- **Scripting:** JavaScript (Vanilla JS)
-- **Hosting:** GitHub Pages / Vercel
+- **Automatic Unit Calculation:** Enter previous and current meter readings to automatically calculate total units consumed.
+- **Slab-Based Tariff Breakdown:** Accurately applies NEA's tiered rates for domestic consumption.
+- **Service & Minimum Charge:** Includes the fixed monthly service charge.
+- **Responsive UI:** Clean, simple, and fully responsive across mobile and desktop devices.
 
 ---
 
-## Getting Started
+## 🛠️ Tech Stack
 
-To run a local copy of this project on your machine, follow these simple steps:
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **GitHub Pages** (Hosting)
 
-### Prerequisites
+---
 
-Make sure you have a web browser and a code editor (like VS Code) installed. If you want to run a local live server, having **Node.js** installed is optional but helpful.
+## 🚀 How to Run Locally
 
-### Installation
-
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
    git clone [https://github.com/BerojgarDev/NEA-Bill-Calculator.git](https://github.com/BerojgarDev/NEA-Bill-Calculator.git)
