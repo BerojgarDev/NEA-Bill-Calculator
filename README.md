@@ -73,7 +73,7 @@ $$\text{Total Amount} + \text{VAT Amount} = 1145 + 41 = \mathbf{Rs. 1,186}$$
 ---
 
 You can view the pdf that I made this so I hope you can understand the logic better here:
-[Download/View Official Electricity Rate List (PDF)](./Electricity%20Rate%20List.pdf)
+[Download/View Electricity Rate List (PDF)](./Electricity%20Rate%20List.pdf)
 
 ---
 
